@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>            	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title> Ask doctor|Online doctor|Virtual followup |PinkWhale HealthCare Services </title>
+<meta name="description" content="pinkWhale Healthcare Services facilitates you to have Convenient online and telephonic Follow Up consultation with your trusted doctor from the comfort of your home">
+<meta name="keywords" content="Online doctor consultation, ask a doctor, virtual followup consulation, doctor online, virtual followup">
+<meta name="token" content="Va82Z4h2EFMCKzc3GN5zQIASOtAwCFFG7s6Jzfv4" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/pw/bootstrap.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<link rel="stylesheet" href="css/pw/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/new/magnific-popup.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/new/flexslider.css">	
+<link rel="stylesheet" href="css/new/newstyleResponsive.css">
+<link rel="stylesheet" href="css/new/newstyle.css">
+<link rel="stylesheet" href="/css/others/sweetAlert/sweetalert.css">
+        
+    </head>
+	<body>		
+        <header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<a class="navbar-brand logo_h responsive_logo_with" style="width:15%;" href="/"><img src="/img/front/logo.png" alt="logo" style="width: 100%;"></a>
+
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-center">
+							<li class="nav-item"><a class="nav-link" href="/about"> About us </a></li>
+						<!--	<li class="nav-item"><a class="nav-link" href=""> Services </a></li>-->
+							<li class="nav-item"><a class="nav-link" href="http://pinkwhalehealthcare.com/blog/" target="_blank"> Blog </a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact"> Contact Us</a></li>
+						</ul>
+					</div>
+					<li class="dropdown open" style="list-style: none;">
+					<a href="#" class="" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><button class="btn btn-login ">Login</button></a>
+					<ul class="dropdown-menu" aria-labelledby="drop1">  
+						<h3>LOG IN</h3>
+						<form id="form-login" autocomplete="off" class="form-login-drowdown">
+							<div class="field show_icons">
+								<label>USER ID</label>
+								<input type="text" class="user_name_login_form" name="username" id="user_name_login" placeholder="mobile number">
+                                <span class="eye_user-icon">
+								<i class="fa fa-user-o" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="field show_icons">
+								<label>PASSWORD</label>
+								<input type="password" class="user_name_login_form" name="password" id="loginPassword" placeholder="Password">
+                                <span class="eye_user-icon">
+								<i class="fa fa-eye" aria-hidden="true" onclick="Front.showPasswordHidden(event, this);"></i>
+								</span>
+								<div class="password-err new_err"></div>
+								<div class="auth-err new_err"></div>
+							</div>
+							
+							<div class="row" id="forgot_pwd">
+								<div class="col-lg-12 col-xs-12 col-sm-12 flush">
+									<a href="#" class="forgot_password pull-right" onclick="Front.forgotPwd(event, this)">Forgot password ?</a>
+								</div>
+							</div>
+							<div class="row" style="padding-top: 5%">
+							  <div class="col-lg-12 flush col-xs-12 col-sm-12">
+					          <input type="hidden" name="_token" value="Va82Z4h2EFMCKzc3GN5zQIASOtAwCFFG7s6Jzfv4">
+							<button type="submit" class="btn btn-login-submit" onclick="Front.login(event, this)">Login</button>	
+							</div>
+							</div>
+						</form>
+					</ul>
+				</li>	
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>		
+					
+				</div>
+			</nav>
+		</div>
+	</header> 
+        <section style="padding: 0px 0;"> 
+<div class="container" style="position: relative;">
+	<div class="row">
+			<div class="col-lg-12">
+			<div  style="position: relative;">
+			   <img  class="img-fluid"  src="img/newdesign/img/pinkwhale-banner580.png" alt="">
+			   <div class="banner_pw_title">
+	
+			   <h2 class="banner_pw_text">Pinkwhale Healthcare</h2>
+			   <p class="banner_pw_sub_text">User friendly platform that facilitates Abundance of Good Health  </p>
+			   </div>
+				</div>
+</div>
+</div>
+</div>
+</section>
+<img style="width: 100%;" src="img/newdesign/img/Line.png" alt="">
+		<section class="big_features" style="padding-top: 20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="banner_content">
+							<h2 style="color: #157cb7;
+							font-size: 40px!important;
+							font-weight: lighter;">Our<span style="font-size: 40px;
+							color: #ff487f;
+							font-family: lato;
+							font-weight: lighter;"> Products </span></h2>
+							<h2 class="smart_opd_text">SMART-OPD <sup style="font-size: 15px;top: -1.5em;margin-left: -2%;">TM</sup></h2>
+							<img class="img-fluid" src="img/newdesign/img/blueline.png" alt="" draggable="false" style="height: 6px;">	
+						<!--	<ul class="col-sm-6 col-lg-12 col-md-12 col-xs-6 smart_opd_tag">
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							</ul>-->
+							<div class="">
+							<h2 class="pw_content_text">Comprehensive Platform for Optimal Out patient Services & Operations</h2>
+                            <ul class="apt_effiency font-size20">
+                            <li class="">SMART - Appointment System</li>
+                            <li class="">SMART - Followups</li>
+                            <li class="">SMART - Prescription </li>
+                            </ul>
+							</div>
+						    <div class="d-flex align-items-center know_more_left" >
+							<a class="primary_btn" style="margin-right: 30px;" href="https://www.smartopds.com/" target="_blank" ><span>Know more</span></a>	
+						
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+					<div class="" style=""><!--home_right_img-->
+					<img class="img-fluid" src="img/newdesign/img/our_products.png" alt="" draggable="false">							
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="big_features" style="    padding-top: 20px;">
+		<div class="container">
+				<div class="row features_content">
+				<div class="col-lg-7">
+
+				<div class="big_f_left">
+				<img class="img-fluid" src="img/newdesign/img/smart_doctors.png" alt="">
+				</div>
+				</div>
+				<div class="col-lg-5">
+
+				<div class="" style="text-align: right;">
+				<h2 class="smart_opd_text"> SMART-DOCTOR </h2>
+				<img class="img-fluid" src="img/newdesign/img/blueline.png" alt="" draggable="false" style="height: 6px;">
+			<!--	<ul class="col-sm-6 col-lg-12 col-md-6 col-xs-6 smart_opd_tag">
+				<li class="smart_opd_tag_li"></li>
+				<li class="smart_opd_tag_li"></li>
+				<li class="smart_opd_tag_li"></li>
+				</ul>-->
+				<div>
+				<h2 class="pw_content_text">Comprehensive APP For Doctor </h2>
+                            <ul class="apt_effiency font-size20">
+                            <li class="">Synchronized Appointment</li>
+                            <li class="">Virtual Practice</li>
+                            <li class="">Digital patient Data </li>
+                            <li class="">Mobile / Tablet Enabled </li>
+                            </ul>
+				
+				
+               </div>
+<div class="row" style="width: 100%;">
+<p style="    width: 100%;">
+ <a href="https://itunes.apple.com/us/app/pwcare/id1446439913" target="_blank"  style="width: 50%;"><img src="img/newdesign/img/ios.png" alt="" style="width: 30%;border-radius: 4px;float: right;"></a>
+ <a href="https://play.google.com/store/apps/details?id=com.pinkwhale.doctor&amp;hl=en" target="_blank" style="width: 50%;"><img src="img/newdesign/img/android.png" alt="" style="width: 30%;border-radius: 4px;float: right;margin-right: 1%;"></a>
+</p>
+</div>
+
+<div class="d-flex align-items-center know_more_right">
+<a id="play-home-video" class="primary_btn" style="margin-right: 30px;" href="https://www.pinkwhalehealthcare.com/img/launching_video/tab_doc_Promo_2019.mp4"><span>Know more</span></a>		
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+	</section>
+		<section class="big_features" style="    padding-top: 20px;    padding-bottom: 10%;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="banner_content">
+							<h2 class="smart_opd_text">SMART-PATIENT</h2>
+							<img class="img-fluid" src="img/newdesign/img/blueline.png" alt="" draggable="false" style="height: 6px;">
+							<!--<ul class="col-sm-6 col-lg-12 col-md-12 col-xs-6 smart_opd_tag">
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							<li class="smart_opd_tag_li"></li>
+							</ul>-->
+							<div>
+							<h2 style="    color: #498ab3; font-weight: 100;font-family: lato;">Comprehensive APP For Doctor </h2>
+	                        <ul class="apt_effiency font-size20">
+                            <li class="">Digitally Equipped</li>
+                            <li class="">Empowered</li>
+                            <li class="">Data Enabled</li>
+                            <li class="">Convenient Care </li>
+                            </ul>
+						   
+						   </div>
+
+
+<div class="row" style="width: 100%;">
+<p style="    width: 100%;">
+ <a href="https://play.google.com/store/apps/details?id=com.pinkwhale.patient&amp;hl=en" target="_blank" style="width: 50%;"><img src="img/newdesign/img/android.png" alt="" style="width: 30%;border-radius: 4px;float: left;margin-left: 3%;"></a>
+ <a href="https://itunes.apple.com/US/app/id1445733375?mt=8" target="_blank" style="width: 50%;"><img src="img/newdesign/img/ios.png" alt="" style="width: 30%;border-radius: 4px;float: left;margin-right: 1%;"></a>
+</p>
+</div>
+							<div class="d-flex align-items-center know_more_left" >
+   
+							<a id="play-home-video1" class="primary_btn" style="margin-right: 30px;" href="https://www.pinkwhalehealthcare.com/img/launching_video/Patient_Promo_2019.mp4"><span>Know more</span></a>				
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+					<div class="" style=""><!--home_right_img-->
+					<img class="img-fluid" src="img/newdesign/img/smart_patients.png" alt="" draggable="false">							
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+    
+		<div style="border-top: 2px solid #45d2f0;position: relative;">
+<div style="text-align: center;height: 30px;">
+<span class="footer_outer_border"><a href="#"><i class="fa fa-home footer_inner_border" aria-hidden="true"></i></a></span>  
+</div>	    
+</div>
+
+	<footer class="footer_area" style="min-height: 70px;margin-top: 1%;">
+		<div class="container">
+        <div class="row footer_inner" style="margin-bottom: 1%;">
+        <div class="col-lg-4 col-sm-12 col-xs-12 ">
+        <p class="logo" style="font-size: 18px;font-family: lato;color: black;">Contact Us <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 30px;color: #2485bd;"></i></p>
+        <span class="about">Arunoday, #2214, first floor, 8th Main Road ( Near Water Tank), D Block, MCEHCE Layout, Sahakarnagar, Bengaluru 560092</span><br>
+        </div>
+        <div class="col-lg-4 col-sm-7 col-xs-7">
+            <p class="footer_level2" style="text-align: center;">
+                <label style="width: 25%;"><a href="/about" class="footer_list" style="color: black;font-family: lato; font-size: 15px;">About Us</a></label>   
+                <label style="width: 35%;"><a href="/terms-&-conditions" class="footer_list" style="color: black;font-family: lato; font-size: 15px;">Trems Of use</a></label> 
+                <label style="width: 36%;"><a href="/privacy-policy" class="footer_list" style="color: black;font-family: lato; font-size: 15px;">Privacy Policy</a></label>
+            </p>
+        </div>
+        <div class="col-lg-4 col-sm-5 col-xs-5">
+        <div class="footer_level3" style="text-align: right;">
+        <span class="about"><span><i class="fa fa-phone" aria-hidden="true" style="color: #2485bd;"></i> +91 80 61915533 </span></span>       
+        <p class="about"><span><i class="fa fa-envelope" aria-hidden="true" style="color: #2485bd;"></i> info@pinkwhalehealthcare.com </span></p>
+		</div>
+        </div>
+        </div>
+        <div class="footer-lower">
+            <div class="media-container-row" style="text-align: center;">
+                <div class="col-md-12">
+                    <p class="footer_poweredby">
+                        Powered by Pinkwhale Healthcare Services Pvt Ltd.  © 2019
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+		</div>
+	</footer>
+	
+	
+	<script src="js/new/jquery-3.2.1.min.js"></script>
+	<script src="js/new/bootstrap.min.js"></script>
+	<script src="js/new/jquery.magnific-popup.min.js"></script>
+	<script src="js/new/jquery.flexslider.js"></script>
+	<script src="js/new/theme.js"></script>
+	<script src="/js/front/front.js"></script>
+	<script src="/js/others/sweetAlert/sweetalert2.all.min.js"></script>
+	  <script type="text/javascript">
+	  
+   /* $(document).ready(function(){
+    $(".forgot_password").click(function(){
+        $("#forgot_pwd").hide();
+    });
+    
+    $(".forgot_password").click(function(){
+    $("#show_forgot_div").show();
+    });
+    
+});
+*/
+$(document).ready(function () {
+          var url = window.location;
+          $('.nav-item a[href="'+ url +'"]').addClass('active');
+          $('.nav-item a').filter(function() {
+               return this.href == url;
+          }).addClass('active');
+      });
+
+
+      $('.flexslider').flexslider({
+        animation: "fade",
+		controlNav: false,
+		  slidshow: false,
+		slideshow: true,
+		   start:function(slider){
+              //HIDE THE ARROWS BY DEFAULT...
+        $('.flexslider .flex-direction-nav a').css({display:'none'});
+
+    }//end start function
+      });
+    
+  </script>	
+  
+	</body>
+</html>

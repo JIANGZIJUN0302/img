@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en-US" class data-skin="light" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<script type="text/javascript">
+			window.flatStyles = window.flatStyles || ''
+
+			window.lightspeedOptimizeStylesheet = function () {
+				const currentStylesheet = document.querySelector( '.tcb-lightspeed-style:not([data-ls-optimized])' )
+
+				if ( currentStylesheet ) {
+					try {
+						if ( currentStylesheet.sheet && currentStylesheet.sheet.cssRules ) {
+							if ( window.flatStyles ) {
+								if ( this.optimizing ) {
+									setTimeout( window.lightspeedOptimizeStylesheet.bind( this ), 24 )
+								} else {
+									this.optimizing = true;
+
+									let rulesIndex = 0;
+
+									while ( rulesIndex < currentStylesheet.sheet.cssRules.length ) {
+										const rule = currentStylesheet.sheet.cssRules[ rulesIndex ]
+										/* remove rules that already exist in the page */
+										if ( rule.type === CSSRule.STYLE_RULE && window.flatStyles.includes( `${rule.selectorText}{` ) ) {
+											currentStylesheet.sheet.deleteRule( rulesIndex )
+										} else {
+											rulesIndex ++
+										}
+									}
+									/* optimize, mark it such, move to the next file, append the styles we have until now */
+									currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+
+									window.flatStyles += currentStylesheet.innerHTML
+
+									this.optimizing = false
+								}
+							} else {
+								window.flatStyles = currentStylesheet.innerHTML
+								currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+							}
+						}
+					} catch ( error ) {
+						console.warn( error )
+					}
+
+					if ( currentStylesheet.parentElement.tagName !== 'HEAD' ) {
+						/* always make sure that those styles end up in the head */
+						const stylesheetID = currentStylesheet.id;
+						/**
+						 * make sure that there is only one copy of the css
+						 * e.g display CSS
+						 */
+						if ( ( ! stylesheetID || ( stylesheetID && ! document.querySelector( `head #${stylesheetID}` ) ) ) ) {
+							document.head.prepend( currentStylesheet )
+						} else {
+							currentStylesheet.remove();
+						}
+					}
+				}
+			}
+
+			window.lightspeedOptimizeFlat = function ( styleSheetElement ) {
+				if ( document.querySelectorAll( 'link[href*="thrive_flat.css"]' ).length > 1 ) {
+					/* disable this flat if we already have one */
+					styleSheetElement.setAttribute( 'disabled', true )
+				} else {
+					/* if this is the first one, make sure he's in head */
+					if ( styleSheetElement.parentElement.tagName !== 'HEAD' ) {
+						document.head.append( styleSheetElement )
+					}
+				}
+			}
+		</script>
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//s.gravatar.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js">
+
+<title>Home - Fitness Health Yoga</title>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://fitnesshealthyoga.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Fitness Health Yoga" />
+<meta property="og:url" content="https://fitnesshealthyoga.com/" />
+<meta property="og:site_name" content="Fitness Health Yoga" />
+<meta property="og:updated_time" content="2024-03-18T08:12:25+00:00" />
+<meta property="article:published_time" content="2022-04-22T08:10:17+00:00" />
+<meta property="article:modified_time" content="2024-03-18T08:12:25+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Home - Fitness Health Yoga" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="superadmin" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="Less than a minute" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://fitnesshealthyoga.com/#person","name":"superadmin","logo":{"@type":"ImageObject","@id":"https://fitnesshealthyoga.com/#logo","url":"http://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","contentUrl":"http://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","caption":"Fitness Health Yoga","inLanguage":"en-US","width":"500","height":"180"},"image":{"@type":"ImageObject","@id":"https://fitnesshealthyoga.com/#logo","url":"http://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","contentUrl":"http://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","caption":"Fitness Health Yoga","inLanguage":"en-US","width":"500","height":"180"}},{"@type":"WebSite","@id":"https://fitnesshealthyoga.com/#website","url":"https://fitnesshealthyoga.com","name":"Fitness Health Yoga","publisher":{"@id":"https://fitnesshealthyoga.com/#person"},"inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://fitnesshealthyoga.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","url":"https://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png","width":"500","height":"180","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://fitnesshealthyoga.com/#webpage","url":"https://fitnesshealthyoga.com/","name":"Home - Fitness Health Yoga","datePublished":"2022-04-22T08:10:17+00:00","dateModified":"2024-03-18T08:12:25+00:00","about":{"@id":"https://fitnesshealthyoga.com/#person"},"isPartOf":{"@id":"https://fitnesshealthyoga.com/#website"},"primaryImageOfPage":{"@id":"https://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://fitnesshealthyoga.com/author/superadmin/","name":"superadmin","url":"https://fitnesshealthyoga.com/author/superadmin/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/78e686d4a884442d011dc55bc6d77a24?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/78e686d4a884442d011dc55bc6d77a24?s=96&amp;d=mm&amp;r=g","caption":"superadmin","inLanguage":"en-US"},"sameAs":["http://fitnesshealthyoga.com"]},{"@type":"Article","headline":"Home - Fitness Health Yoga","datePublished":"2022-04-22T08:10:17+00:00","dateModified":"2024-03-18T08:12:25+00:00","author":{"@id":"https://fitnesshealthyoga.com/author/superadmin/","name":"superadmin"},"publisher":{"@id":"https://fitnesshealthyoga.com/#person"},"name":"Home - Fitness Health Yoga","@id":"https://fitnesshealthyoga.com/#richSnippet","isPartOf":{"@id":"https://fitnesshealthyoga.com/#webpage"},"image":{"@id":"https://fitnesshealthyoga.com/wp-content/uploads/2022/04/fitness-health-yoga.png"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://fitnesshealthyoga.com/#webpage"}}]}</script>
+<meta name="google-site-verification" content="L1lA6zoY1r2cv-eJp-u7wEcvE9EuxCn0tjA4zXs4UVc" />
+<meta name="msvalidate.01" content="C55B58F2DF71F95DF30D8A9D94A33346" />
+
+<link rel="alternate" type="application/rss+xml" title="Fitness Health Yoga &raquo; Feed" href="https://fitnesshealthyoga.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fitness Health Yoga &raquo; Comments Feed" href="https://fitnesshealthyoga.com/comments/feed/" />
+<script type="text/javascript">try{if("undefined"!=typeof localStorage){var tieSkin=localStorage.getItem("tie-skin"),html=document.getElementsByTagName("html")[0].classList,htmlSkin="light";if(html.contains("dark-skin")&&(htmlSkin="dark"),null!=tieSkin&&tieSkin!=htmlSkin){html.add("tie-skin-inverted");var tieSkinInverted=!0}"dark"==tieSkin?html.add("dark-skin"):"light"==tieSkin&&html.remove("dark-skin")}}catch(t){console.log(t)}</script>
+<style type="text/css">
+			:root{
+			
+					--main-nav-background: #FFFFFF;
+					--main-nav-secondry-background: rgba(0,0,0,0.03);
+					--main-nav-primary-color: #0088ff;
+					--main-nav-contrast-primary-color: #FFFFFF;
+					--main-nav-text-color: #2c2f34;
+					--main-nav-secondry-text-color: rgba(0,0,0,0.5);
+					--main-nav-main-border-color: rgba(0,0,0,0.1);
+					--main-nav-secondry-border-color: rgba(0,0,0,0.08);
+				
+			}
+		</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fitnesshealthyoga.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id="rank-math-toc-block-style-inline-css" type="text/css">
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="https://fitnesshealthyoga.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.3" type="text/css" media="all" />
+<link rel="stylesheet" id="taqyeem-buttons-style-css" href="https://fitnesshealthyoga.com/wp-content/plugins/taqyeem-buttons/assets/style.css?ver=6.5.5" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-woocommerce-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/plugins/woocommerce.min.css?ver=6.1.1" type="text/css" media="all" />
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="tie-css-base-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/base.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-styles-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/style.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-widgets-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/widgets.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-helpers-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/helpers.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-fontawesome5-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/fontawesome.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-ilightbox-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/ilightbox/dark-skin/skin.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-css-shortcodes-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/plugins/shortcodes.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="taqyeem-styles-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/css/plugins/taqyeem.min.css?ver=6.1.1" type="text/css" media="all" />
+<link rel="stylesheet" id="tie-theme-child-css-css" href="https://fitnesshealthyoga.com/wp-content/themes/jannah-child/style.css?ver=6.5.5" type="text/css" media="all" />
+<style id="tie-theme-child-css-inline-css" type="text/css">
+.wf-active .logo-text,.wf-active h1,.wf-active h2,.wf-active h3,.wf-active h4,.wf-active h5,.wf-active h6,.wf-active .the-subtitle{font-family: 'Roboto';}#top-nav .top-menu > ul > li > a{}#top-nav{line-height: 3.5em}#main-nav .main-menu > ul > li > a{text-transform: uppercase;}:root:root{--brand-color: #00bf80;--dark-brand-color: #008d4e;--bright-color: #FFFFFF;--base-color: #2c2f34;}#reading-position-indicator{box-shadow: 0 0 10px rgba( 0,191,128,0.7);}:root:root{--brand-color: #00bf80;--dark-brand-color: #008d4e;--bright-color: #FFFFFF;--base-color: #2c2f34;}#reading-position-indicator{box-shadow: 0 0 10px rgba( 0,191,128,0.7);}#top-nav,#top-nav .sub-menu,#top-nav .comp-sub-menu,#top-nav .ticker-content,#top-nav .ticker-swipe,.top-nav-boxed #top-nav .topbar-wrapper,.search-in-top-nav.autocomplete-suggestions,#top-nav .guest-btn:not(:hover){background-color : #eff0f1;}#top-nav *,.search-in-top-nav.autocomplete-suggestions{border-color: rgba( 0,0,0,0.08);}#top-nav .icon-basecloud-bg:after{color: #eff0f1;}#top-nav a:not(:hover),#top-nav input,#top-nav #search-submit,#top-nav .fa-spinner,#top-nav .dropdown-social-icons li a span,#top-nav .components > li .social-link:not(:hover) span,.search-in-top-nav.autocomplete-suggestions a{color: #434955;}#top-nav .menu-item-has-children > a:before{border-top-color: #434955;}#top-nav li .menu-item-has-children > a:before{border-top-color: transparent;border-left-color: #434955;}.rtl #top-nav .menu li .menu-item-has-children > a:before{border-left-color: transparent;border-right-color: #434955;}#top-nav input::-moz-placeholder{color: #434955;}#top-nav input:-moz-placeholder{color: #434955;}#top-nav input:-ms-input-placeholder{color: #434955;}#top-nav input::-webkit-input-placeholder{color: #434955;}#top-nav .comp-sub-menu .button:hover,#top-nav .checkout-button,.search-in-top-nav.autocomplete-suggestions .button{background-color: #00bf80;}#top-nav a:hover,#top-nav .menu li:hover > a,#top-nav .menu > .tie-current-menu > a,#top-nav .components > li:hover > a,#top-nav .components #search-submit:hover,.search-in-top-nav.autocomplete-suggestions .post-title a:hover{color: #00bf80;}#top-nav .comp-sub-menu .button:hover{border-color: #00bf80;}#top-nav .tie-current-menu > a:before,#top-nav .menu .menu-item-has-children:hover > a:before{border-top-color: #00bf80;}#top-nav .menu li .menu-item-has-children:hover > a:before{border-top-color: transparent;border-left-color: #00bf80;}.rtl #top-nav .menu li .menu-item-has-children:hover > a:before{border-left-color: transparent;border-right-color: #00bf80;}#top-nav .comp-sub-menu .button:hover,#top-nav .comp-sub-menu .checkout-button,.search-in-top-nav.autocomplete-suggestions .button{color: #FFFFFF;}#top-nav .comp-sub-menu .checkout-button:hover,.search-in-top-nav.autocomplete-suggestions .button:hover{background-color: #00a162;}#top-nav,#top-nav .comp-sub-menu,#top-nav .tie-weather-widget{color: #333333;}.search-in-top-nav.autocomplete-suggestions .post-meta,.search-in-top-nav.autocomplete-suggestions .post-meta a:not(:hover){color: rgba( 51,51,51,0.7 );}#top-nav .weather-icon .icon-cloud,#top-nav .weather-icon .icon-basecloud-bg,#top-nav .weather-icon .icon-cloud-behind{color: #333333 !important;}#main-nav,#main-nav .menu-sub-content,#main-nav .comp-sub-menu,#main-nav .guest-btn:not(:hover),#main-nav ul.cats-vertical li a.is-active,#main-nav ul.cats-vertical li a:hover.search-in-main-nav.autocomplete-suggestions{background-color: #434955;}#main-nav{border-width: 0;}#theme-header #main-nav:not(.fixed-nav){bottom: 0;}#main-nav .icon-basecloud-bg:after{color: #434955;}.search-in-main-nav.autocomplete-suggestions{border-color: rgba(255,255,255,0.07);}.main-nav-boxed #main-nav .main-menu-wrapper{border-width: 0;}#main-nav .menu li.menu-item-has-children > a:before,#main-nav .main-menu .mega-menu > a:before{border-top-color: #ffffff;}#main-nav .menu li .menu-item-has-children > a:before,#main-nav .mega-menu .menu-item-has-children > a:before{border-top-color: transparent;border-left-color: #ffffff;}.rtl #main-nav .menu li .menu-item-has-children > a:before,.rtl #main-nav .mega-menu .menu-item-has-children > a:before{border-left-color: transparent;border-right-color: #ffffff;}#main-nav a:not(:hover),#main-nav a.social-link:not(:hover) span,#main-nav .dropdown-social-icons li a span,.search-in-main-nav.autocomplete-suggestions a{color: #ffffff;}.main-nav {--main-nav-primary-color: #00bf80;}#main-nav .mega-links-head:after,#main-nav .comp-sub-menu .button:hover,#main-nav .comp-sub-menu .checkout-button,#main-nav .cats-horizontal a.is-active,#main-nav .cats-horizontal a:hover,.search-in-main-nav.autocomplete-suggestions .button,#main-nav .spinner > div{background-color: #00bf80;}#main-nav .menu ul li:hover > a,#main-nav .menu ul li.current-menu-item:not(.mega-link-column) > a,#main-nav .components a:hover,#main-nav .components > li:hover > a,#main-nav #search-submit:hover,#main-nav .cats-vertical a.is-active,#main-nav .cats-vertical a:hover,#main-nav .mega-menu .post-meta a:hover,#main-nav .mega-menu .post-box-title a:hover,.search-in-main-nav.autocomplete-suggestions a:hover,#main-nav .spinner-circle:after{color: #00bf80;}#main-nav .menu > li.tie-current-menu > a,#main-nav .menu > li:hover > a,#main-nav .components .button:hover,#main-nav .comp-sub-menu .checkout-button,.theme-header #main-nav .mega-menu .cats-horizontal a.is-active,.theme-header #main-nav .mega-menu .cats-horizontal a:hover,.search-in-main-nav.autocomplete-suggestions a.button{color: #FFFFFF;}#main-nav .menu > li.tie-current-menu > a:before,#main-nav .menu > li:hover > a:before{border-top-color: #FFFFFF;}.main-nav-light #main-nav .menu-item-has-children li:hover > a:before,.main-nav-light #main-nav .mega-menu li:hover > a:before{border-left-color: #00bf80;}.rtl .main-nav-light #main-nav .menu-item-has-children li:hover > a:before,.rtl .main-nav-light #main-nav .mega-menu li:hover > a:before{border-right-color: #00bf80;border-left-color: transparent;}.search-in-main-nav.autocomplete-suggestions .button:hover,#main-nav .comp-sub-menu .checkout-button:hover{background-color: #00a162;}#main-nav,#main-nav input,#main-nav #search-submit,#main-nav .fa-spinner,#main-nav .comp-sub-menu,#main-nav .tie-weather-widget{color: #ffffff;}#main-nav input::-moz-placeholder{color: #ffffff;}#main-nav input:-moz-placeholder{color: #ffffff;}#main-nav input:-ms-input-placeholder{color: #ffffff;}#main-nav input::-webkit-input-placeholder{color: #ffffff;}#main-nav .mega-menu .post-meta,#main-nav .mega-menu .post-meta a,.search-in-main-nav.autocomplete-suggestions .post-meta{color: rgba(255,255,255,0.6);}#main-nav .weather-icon .icon-cloud,#main-nav .weather-icon .icon-basecloud-bg,#main-nav .weather-icon .icon-cloud-behind{color: #ffffff !important;}#footer{background-color: #434955;}#site-info{background-color: #363a42;}#footer .posts-list-counter .posts-list-items li.widget-post-list:before{border-color: #434955;}#footer .timeline-widget a .date:before{border-color: rgba(67,73,85,0.8);}#footer .footer-boxed-widget-area,#footer textarea,#footer input:not([type=submit]),#footer select,#footer code,#footer kbd,#footer pre,#footer samp,#footer .show-more-button,#footer .slider-links .tie-slider-nav span,#footer #wp-calendar,#footer #wp-calendar tbody td,#footer #wp-calendar thead th,#footer .widget.buddypress .item-options a{border-color: rgba(255,255,255,0.1);}#footer .social-statistics-widget .white-bg li.social-icons-item a,#footer .widget_tag_cloud .tagcloud a,#footer .latest-tweets-widget .slider-links .tie-slider-nav span,#footer .widget_layered_nav_filters a{border-color: rgba(255,255,255,0.1);}#footer .social-statistics-widget .white-bg li:before{background: rgba(255,255,255,0.1);}.site-footer #wp-calendar tbody td{background: rgba(255,255,255,0.02);}#footer .white-bg .social-icons-item a span.followers span,#footer .circle-three-cols .social-icons-item a .followers-num,#footer .circle-three-cols .social-icons-item a .followers-name{color: rgba(255,255,255,0.8);}#footer .timeline-widget ul:before,#footer .timeline-widget a:not(:hover) .date:before{background-color: #252b37;}#footer .widget-title,#footer .widget-title a:not(:hover){color: #00bf80;}#footer,#footer textarea,#footer input:not([type='submit']),#footer select,#footer #wp-calendar tbody,#footer .tie-slider-nav li span:not(:hover),#footer .widget_categories li a:before,#footer .widget_product_categories li a:before,#footer .widget_layered_nav li a:before,#footer .widget_archive li a:before,#footer .widget_nav_menu li a:before,#footer .widget_meta li a:before,#footer .widget_pages li a:before,#footer .widget_recent_entries li a:before,#footer .widget_display_forums li a:before,#footer .widget_display_views li a:before,#footer .widget_rss li a:before,#footer .widget_display_stats dt:before,#footer .subscribe-widget-content h3,#footer .about-author .social-icons a:not(:hover) span{color: #bbbbbb;}#footer post-widget-body .meta-item,#footer .post-meta,#footer .stream-title,#footer.dark-skin .timeline-widget .date,#footer .wp-caption .wp-caption-text,#footer .rss-date{color: rgba(187,187,187,0.7);}#footer input::-moz-placeholder{color: #bbbbbb;}#footer input:-moz-placeholder{color: #bbbbbb;}#footer input:-ms-input-placeholder{color: #bbbbbb;}#footer input::-webkit-input-placeholder{color: #bbbbbb;}.tie-cat-16,.tie-cat-item-16 > span{background-color:#e67e22 !important;color:#FFFFFF !important;}.tie-cat-16:after{border-top-color:#e67e22 !important;}.tie-cat-16:hover{background-color:#c86004 !important;}.tie-cat-16:hover:after{border-top-color:#c86004 !important;}.tie-cat-24,.tie-cat-item-24 > span{background-color:#2ecc71 !important;color:#FFFFFF !important;}.tie-cat-24:after{border-top-color:#2ecc71 !important;}.tie-cat-24:hover{background-color:#10ae53 !important;}.tie-cat-24:hover:after{border-top-color:#10ae53 !important;}.tie-cat-29,.tie-cat-item-29 > span{background-color:#9b59b6 !important;color:#FFFFFF !important;}.tie-cat-29:after{border-top-color:#9b59b6 !important;}.tie-cat-29:hover{background-color:#7d3b98 !important;}.tie-cat-29:hover:after{border-top-color:#7d3b98 !important;}.tie-cat-30,.tie-cat-item-30 > span{background-color:#34495e !important;color:#FFFFFF !important;}.tie-cat-30:after{border-top-color:#34495e !important;}.tie-cat-30:hover{background-color:#162b40 !important;}.tie-cat-30:hover:after{border-top-color:#162b40 !important;}.tie-cat-32,.tie-cat-item-32 > span{background-color:#795548 !important;color:#FFFFFF !important;}.tie-cat-32:after{border-top-color:#795548 !important;}.tie-cat-32:hover{background-color:#5b372a !important;}.tie-cat-32:hover:after{border-top-color:#5b372a !important;}.tie-cat-34,.tie-cat-item-34 > span{background-color:#4CAF50 !important;color:#FFFFFF !important;}.tie-cat-34:after{border-top-color:#4CAF50 !important;}.tie-cat-34:hover{background-color:#2e9132 !important;}.tie-cat-34:hover:after{border-top-color:#2e9132 !important;}
+</style>
+<link rel="stylesheet" id="select2-css" href="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=8.7.0" type="text/css" media="all" />
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/shortcode-for-current-date/dist/script.js?ver=6.5.5" id="shortcode-for-current-date-script-js"></script>
+<script type="text/javascript" src="//fitnesshealthyoga.com/wp-content/plugins/wp-hide-security-enhancer/assets/js/devtools-detect.js?ver=6.5.5" id="devtools-detect-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.7.0" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/sunil05\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/fitnesshealthyoga.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.7.0" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.7.0" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/sunil05\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.7.0" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.8.7.0" id="selectWoo-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://fitnesshealthyoga.com/wp-json/" /><link rel="alternate" type="application/json" href="https://fitnesshealthyoga.com/wp-json/wp/v2/pages/1016" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fitnesshealthyoga.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.5" />
+<link rel="shortlink" href="https://fitnesshealthyoga.com/" />
+<link rel="alternate" type="application/json+oembed" href="https://fitnesshealthyoga.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitnesshealthyoga.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fitnesshealthyoga.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitnesshealthyoga.com%2F&#038;format=xml" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3500346116234611" crossorigin="anonymous"></script><script type="text/javascript">
+/* <![CDATA[ */
+var taqyeem = {"ajaxurl":"https://fitnesshealthyoga.com/sunil05/admin-ajax.php" , "your_rating":"Your Rating:"};
+/* ]]> */
+</script>
+<style type="text/css" id="tve_global_variables">:root{--tcb-background-author-image:url(https://secure.gravatar.com/avatar/78e686d4a884442d011dc55bc6d77a24?s=256&d=mm&r=g);--tcb-background-user-image:url();--tcb-background-featured-image-thumbnail:url(https://fitnesshealthyoga.com/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png);}</style><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<script type="text/javascript" id="google_gtagjs" src="https://www.googletagmanager.com/gtag/js?id=UA-66288544-1" async="async"></script>
+<script type="text/javascript" id="google_gtagjs-inline">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-66288544-1', {} );
+/* ]]> */
+</script>
+<style type="text/css" id="thrive-default-styles"></style><link rel="icon" href="https://fitnesshealthyoga.com/wp-content/uploads/2022/04/icon-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://fitnesshealthyoga.com/wp-content/uploads/2022/04/icon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://fitnesshealthyoga.com/wp-content/uploads/2022/04/icon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://fitnesshealthyoga.com/wp-content/uploads/2022/04/icon-300x300.png" />
+<script charset="UTF-8" src="//web.webpushs.com/js/push/7fe396aa3876203226747b379c50a286_1.js" async></script> </head>
+<body id="tie-body" class="home page-template-default page page-id-1016 theme-jannah tie-no-js woocommerce-no-js wrapper-has-shadow block-head-1 magazine1 is-thumb-overlay-disabled is-mobile is-header-layout-3 has-builder hide_share_post_top hide_share_post_bottom">
+<div class="background-overlay">
+<div id="tie-container" class="site tie-container">
+<div id="tie-wrapper">
+<header id="theme-header" class="theme-header header-layout-3 main-nav-light main-nav-default-light main-nav-below no-stream-item top-nav-active top-nav-light top-nav-default-light top-nav-above has-shadow has-normal-width-logo mobile-header-default">
+<nav id="top-nav" data-skin="search-in-top-nav" class="has-date-menu-components top-nav header-nav live-search-parent" aria-label="Secondary Navigation">
+<div class="container">
+<div class="topbar-wrapper">
+<div class="topbar-today-date tie-icon">
+Monday, June 24 2024 </div>
+<div class="tie-alignleft">
+</div>
+<div class="tie-alignright">
+<ul class="components"> <li class="search-bar menu-item custom-menu-link" aria-label="Search">
+<form method="get" id="search" action="https://fitnesshealthyoga.com/">
+<input id="search-input" class="is-ajax-search" inputmode="search" type="text" name="s" title="Search for" placeholder="Search for" />
+<button id="search-submit" type="submit">
+<span class="tie-icon-search tie-search-icon" aria-hidden="true"></span>
+<span class="screen-reader-text">Search for</span>
+</button>
+</form>
+</li>
+<li class="skin-icon menu-item custom-menu-link">
+<a href="#" class="change-skin" title="Switch skin">
+<span class="tie-icon-moon change-skin-icon" aria-hidden="true"></span>
+<span class="screen-reader-text">Switch skin</span>
+</a>
+</li>
+<li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li><li class="social-icons-item"><a class="social-link youtube-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-youtube"></span><span class="screen-reader-text">YouTube</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/fitnesshealth55"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.facebook.com/fitnesshealthyoga"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li> </ul> </div>
+</div>
+</div>
+</nav>
+<div class="container header-container">
+<div class="tie-row logo-row">
+<div class="logo-wrapper">
+<div class="tie-col-md-4 logo-container clearfix">
+<div id="mobile-header-components-area_1" class="mobile-header-components"><ul class="components"><li class="mobile-component_menu custom-menu-link"><a href="#" id="mobile-menu-icon" class><span class="tie-mobile-menu-icon nav-icon is-layout-1"></span><span class="screen-reader-text">Menu</span></a></li></ul></div>
+<div id="logo" class="image-logo" style="margin-top: 15px; margin-bottom: 15px;">
+<a title="Fitness Health Yoga" href="https://fitnesshealthyoga.com/">
+<picture class="tie-logo-default tie-logo-picture">
+<source class="tie-logo-source-default tie-logo-source" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/08/fitness-health-yoga.png 2x, https://fitnesshealthyoga.com/wp-content/uploads/2023/08/fitness-health-yoga-small.png 1x">
+<img class="tie-logo-img-default tie-logo-img" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/08/fitness-health-yoga-small.png" alt="Fitness Health Yoga" width="250" height="90" style="max-height:90px; width: auto;" />
+</picture>
+<h1 class="h1-off">Fitness Health Yoga</h1> </a>
+</div>
+<div id="mobile-header-components-area_2" class="mobile-header-components"><ul class="components"><li class="mobile-component_search custom-menu-link">
+<a href="#" class="tie-search-trigger-mobile">
+<span class="tie-icon-search tie-search-icon" aria-hidden="true"></span>
+<span class="screen-reader-text">Search for</span>
+</a>
+</li></ul></div> </div>
+</div>
+</div>
+</div>
+<div class="main-nav-wrapper">
+<nav id="main-nav" class="main-nav header-nav" aria-label="Primary Navigation">
+<div class="container">
+<div class="main-menu-wrapper">
+<div id="menu-components-wrap">
+<div class="main-menu main-menu-wrap tie-alignleft">
+<div id="main-nav-menu" class="main-menu header-menu"><ul id="menu-main-menu" class="menu"><li id="menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1016 current_page_item menu-item-1082 tie-current-menu"><a href="https://fitnesshealthyoga.com/">Home</a></li>
+<li id="menu-item-1091" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1091"><a href="https://fitnesshealthyoga.com/health-news/">Health News</a></li>
+<li id="menu-item-1083" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1083"><a href="https://fitnesshealthyoga.com/fitness/">Fitness</a></li>
+<li id="menu-item-1084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1084"><a href="https://fitnesshealthyoga.com/health/">Health</a>
+<ul class="sub-menu menu-sub-content">
+<li id="menu-item-1086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1086"><a href="https://fitnesshealthyoga.com/health/health-care/">Health Care</a></li>
+<li id="menu-item-1089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1089"><a href="https://fitnesshealthyoga.com/health/weight-loss/">Weight Loss</a></li>
+<li id="menu-item-1085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1085"><a href="https://fitnesshealthyoga.com/health/baby-care/">Baby Care</a></li>
+<li id="menu-item-1087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1087"><a href="https://fitnesshealthyoga.com/health/nutrition-food/">Nutrition Food</a></li>
+<li id="menu-item-1088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1088"><a href="https://fitnesshealthyoga.com/health/skin-care/">Skin Care</a></li>
+<li id="menu-item-1090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1090"><a href="https://fitnesshealthyoga.com/health/wellness-tips/">Wellness Tips</a></li>
+</ul>
+</li>
+<li id="menu-item-1093" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1093"><a href="https://fitnesshealthyoga.com/yoga/">Yoga</a></li>
+<li id="menu-item-1092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1092"><a href="https://fitnesshealthyoga.com/videos/">Videos</a></li>
+<li id="menu-item-19439" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19439"><a href="https://fitnesshealthyoga.com/reviews/">Reviews</a></li>
+</ul></div> </div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<script type="text/javascript">
+			try{if("undefined"!=typeof localStorage){var header,mnIsDark=!1,tnIsDark=!1;(header=document.getElementById("theme-header"))&&((header=header.classList).contains("main-nav-default-dark")&&(mnIsDark=!0),header.contains("top-nav-default-dark")&&(tnIsDark=!0),"dark"==tieSkin?(header.add("main-nav-dark","top-nav-dark"),header.remove("main-nav-light","top-nav-light")):"light"==tieSkin&&(mnIsDark||(header.remove("main-nav-dark"),header.add("main-nav-light")),tnIsDark||(header.remove("top-nav-dark"),header.add("top-nav-light"))))}}catch(a){console.log(a)}
+		</script>
+<div id="tiepost-1016-section-3871" class="section-wrapper container-full without-background">
+<div class="section-item is-first-section full-width" style>
+<div class="container">
+<div class="tie-row main-content-row">
+<div class="main-content tie-col-md-12"> <section id="tie-block_2205" class="slider-area mag-box">
+<div class="slider-area-inner">
+<div id="tie-main-slider-17-block_2205" class="tie-main-slider main-slider grid-3-slides boxed-slider grid-slider-wrapper grid-3-slides-half-first tie-slick-slider-wrapper" data-slider-id="17" data-speed="3000">
+<div class="main-slider-inner">
+<div class="containerblock_2205">
+<div class="tie-slick-slider">
+<ul class="tie-slider-nav"></ul><div class="slide"><div style="background-image: url(https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-780x470.jpeg)" class="grid-item slide-id-49300 tie-slide-1">
+<a href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/" class="all-over-thumb-link" aria-label="The best portable power station for 2024 to help you prep for storms, blackouts and emergencies"></a>
+<div class="thumb-overlay"><span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://fitnesshealthyoga.com/health-news/">Health News</a></span><div class="thumb-content"><div class="thumb-meta"><span class="date meta-item tie-icon">4 hours ago</span></div>
+<h2 class="thumb-title"><a href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/">The best portable power station for 2024 to help you prep for storms, blackouts and emergencies</a></h2>
+<div class="thumb-desc">Winter storms are in the rear-view, at least for now, but heat waves and summer storms are here to huff, puff and blow those power lines down. That could leave you without electricity for hours or even&hellip;</div></div> 
+</div>
+</div>
+<div style="background-image: url(https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Bissell-HP-Beautiful-and-more-780x470.png)" class="grid-item slide-id-49286 tie-slide-2">
+<a href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/" class="all-over-thumb-link" aria-label="Bissell, HP, Beautiful and more"></a>
+<div class="thumb-overlay"><span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://fitnesshealthyoga.com/health-news/">Health News</a></span><div class="thumb-content"><div class="thumb-meta"><span class="date meta-item tie-icon">16 hours ago</span></div>
+<h2 class="thumb-title"><a href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/">Bissell, HP, Beautiful and more</a></h2>
+<div class="thumb-desc">Well, it&#8217;s been nearly two whole days since the solstice, so &#8230; how&#8217;s your summer going?! We just want to make sure that you make maximum use of — have maximum fun during — these long, sunny&hellip;</div></div> 
+</div>
+</div>
+<div style="background-image: url(https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-TouchBeauty-All-In-One-Hair-Trimmer-is-on-sale-780x470.png)" class="grid-item slide-id-49258 tie-slide-3">
+<a href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/" class="all-over-thumb-link" aria-label="The TouchBeauty All In One Hair Trimmer is on sale at Amazon"></a>
+<div class="thumb-overlay"><span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://fitnesshealthyoga.com/health-news/">Health News</a></span><div class="thumb-content"><div class="thumb-meta"><span class="date meta-item tie-icon">1 day ago</span></div>
+<h2 class="thumb-title"><a href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/">The TouchBeauty All In One Hair Trimmer is on sale at Amazon</a></h2>
+<div class="thumb-desc">Sure there are products to turn to when you wear short-shorts. But what about when it comes to facial hair? Well, first and foremost, there&#8217;s nothing to be ashamed of — It&#8217;s quite common. But if it&hellip;</div></div> 
+</div>
+</div>
+</div> <div class="slide"><div style="background-image: url(https://fitnesshealthyoga.com/wp-content/uploads/2024/06/These-Hanes-terry-shorts-are-down-to-13-780x470.png)" class="grid-item slide-id-49250 tie-slide-4">
+<a href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/" class="all-over-thumb-link" aria-label="These Hanes terry shorts are down to $13"></a>
+<div class="thumb-overlay"><span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://fitnesshealthyoga.com/health-news/">Health News</a></span><div class="thumb-content"><div class="thumb-meta"><span class="date meta-item tie-icon">2 days ago</span></div>
+<h2 class="thumb-title"><a href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/">These Hanes terry shorts are down to $13</a></h2>
+<div class="thumb-desc">The days are getting longer and sunnier! Right about now, we&#8217;re thinking about adding flowy and flattering dresses to our cart to make the most of our favorite season. One thing we forget about? That trusty pair&hellip;</div></div> 
+</div>
+</div>
+<div style="background-image: url(https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Should-social-media-come-with-warning-labels-Plus-a-WHO-780x470.jpeg)" class="grid-item slide-id-49244 tie-slide-5">
+<a href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/" class="all-over-thumb-link" aria-label="Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week"></a>
+<div class="thumb-overlay"><span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://fitnesshealthyoga.com/health-news/">Health News</a></span><div class="thumb-content"><div class="thumb-meta"><span class="date meta-item tie-icon">2 days ago</span></div>
+<h2 class="thumb-title"><a href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/">Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week</a></h2>
+<div class="thumb-desc">Hello, health and wellness readers. My name is Kaitlin, your guide to the news you may have missed and how it could affect your life. Here’s what our team looked into this week: You may love brownies&hellip;</div></div> 
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div>
+</div>
+</div> </section>
+</div>
+</div>
+</div> </div>
+</div>
+<div id="tiepost-1016-section-1508" class="section-wrapper container normal-width without-background">
+<div class="section-item sidebar-right has-sidebar" style>
+<div class="container-normal">
+<div class="tie-row main-content-row">
+<div class="main-content tie-col-md-8 tie-col-xs-12" role="main">
+<div id="tie-block_201" class="mag-box breaking-news-outer">
+<div class="breaking controls-is-active">
+<span class="breaking-title">
+<span class="tie-icon-bolt breaking-icon" aria-hidden="true"></span>
+<span class="breaking-title-text">Health Tips</span>
+</span>
+<ul id="breaking-news-block_201" class="breaking-news" data-type="reveal" data-arrows="true">
+<li class="news-item">
+<a href="https://fitnesshealthyoga.com/dvids-news-nhb-health-fair-a-summer-showcase-event/">DVIDS &#8211; News &#8211; NHB Health Fair a summer showcase event</a>
+</li>
+<li class="news-item">
+<a href="https://fitnesshealthyoga.com/non-medication-solutions-for-ibs-management/">Non-Medication Solutions for IBS Management</a>
+</li>
+<li class="news-item">
+<a href="https://fitnesshealthyoga.com/why-im-taking-on-a-30-day-ice-bath-challenge/">Why I&#8217;m taking on a 30-day ice bath challenge</a>
+</li>
+<li class="news-item">
+<a href="https://fitnesshealthyoga.com/15-tips-and-tricks-for-handling-seasonal-allergies-wpri-com/">15 tips and tricks for handling seasonal allergies – WPRI.com</a>
+</li>
+<li class="news-item">
+<a href="https://fitnesshealthyoga.com/from-khichdi-to-dosa-7-indian-dishes-that-promote-kidney-wellness/">From Khichdi to Dosa: 7 Indian Dishes That Promote Kidney Wellness</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="tie-block_3075" class="mag-box wide-post-box top-news-box" data-current="1">
+<div class="container-wrapper">
+<div class="mag-box-title the-global-title">
+<h3>
+Health News </h3>
+</div>
+<div class="mag-box-container clearfix">
+<ul class="posts-items posts-list-container">
+<li class="post-item  post-49300 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-power tag-power-lines tag-power-stations tag-solar-panels">
+<a aria-label="The best portable power station for 2024 to help you prep for storms, blackouts and emergencies" href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-390x220.jpeg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="The best portable power station for 2024 to help you prep for storms, blackouts and emergencies" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-390x220.jpeg 390w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-300x169.jpeg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-1024x576.jpeg 1024w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-768x432.jpeg 768w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-600x338.jpeg 600w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you.jpeg 1200w" sizes="(max-width: 390px) 100vw, 390px" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">4 hours ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 4 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/">The best portable power station for 2024 to help you prep for storms, blackouts and emergencies</a></h2>
+<p class="post-excerpt">Winter storms are in the rear-view, at least for now, but heat waves and summer storms are here to huff,&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49286 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-seizing-the-day tag-walmart">
+<a aria-label="Bissell, HP, Beautiful and more" href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Bissell-HP-Beautiful-and-more-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="Bissell, HP, Beautiful and more" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">16 hours ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 6 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/">Bissell, HP, Beautiful and more</a></h2>
+<p class="post-excerpt">Well, it&#8217;s been nearly two whole days since the solstice, so &#8230; how&#8217;s your summer going?! We just want to&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49258 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-amazon tag-facial-hair tag-nose-hair tag-nose-hairs">
+<a aria-label="The TouchBeauty All In One Hair Trimmer is on sale at Amazon" href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-TouchBeauty-All-In-One-Hair-Trimmer-is-on-sale-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="The TouchBeauty All In One Hair Trimmer is on sale at Amazon" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">1 day ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 0 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/">The TouchBeauty All In One Hair Trimmer is on sale at Amazon</a></h2>
+<p class="post-excerpt">Sure there are products to turn to when you wear short-shorts. But what about when it comes to facial hair?&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49250 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-amazon tag-flattering-dresses tag-hanes">
+<a aria-label="These Hanes terry shorts are down to $13" href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/These-Hanes-terry-shorts-are-down-to-13-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="shorts" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">2 days ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 4 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/">These Hanes terry shorts are down to $13</a></h2>
+<p class="post-excerpt">The days are getting longer and sunnier! Right about now, we&#8217;re thinking about adding flowy and flattering dresses to our&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/">Read More &raquo;</a> </div>
+</li>
+</ul><div class="clearfix"></div>
+</div>
+<a class="block-pagination next-posts show-more-button load-more-button" data-text="Load More">Load More</a>
+</div>
+</div>
+<script>var js_tie_block_3075 = {"order":"latest","asc_or_desc":"DESC","id":["48"],"number":"4","pagi":"load-more","excerpt":"true","post_meta":"true","read_more":"true","breaking_effect":"reveal","web_stories_columns":"2","sub_style":"default","style":"default","title_length":"","excerpt_length":"","media_overlay":"","read_more_text":""};</script>
+</div>
+<aside class="sidebar tie-col-md-4 tie-col-xs-12 normal-side is-sticky" aria-label="Primary Sidebar">
+<div class="theiaStickySidebar">
+<div id="posts-list-widget-6" class="container-wrapper widget posts-list"><div class="widget-title the-global-title"><div class="the-subtitle">Baby Care</div></div><div class="widget-posts-list-wrapper"><div class="widget-posts-list-container"><ul class="posts-list-items widget-posts-wrapper">
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-body no-small-thumbs">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/3-months-baby-care-5-useful-tips-that-help-momjunction/">3 Months Baby Care &#8211; 5 Useful Tips That Help &#8211; MomJunction</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">February 25, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-body no-small-thumbs">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/babys-first-winter-how-to-protect-newborns-in-cold-weather-parents/">Baby&#039;s First Winter: How To Protect Newborns in Cold Weather &#8211; Parents</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">February 24, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-body no-small-thumbs">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/9-single-parent-child-care-issues-and-solutions-that-are-actually-realistic-care-com/">9 single parent child care issues — and solutions that are actually realistic &#8211; Care.com</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">February 23, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-body no-small-thumbs">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/5-month-old-baby-milestones-and-development-parents/">5-Month-Old Baby: Milestones and Development &#8211; Parents</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">February 22, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-body no-small-thumbs">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/virat-kohli-and-anushka-sharma-welcome-a-baby-boy-heres-how-to-take-care-of-yourself-after-childbirth-onlymyhealth/">Virat Kohli And Anushka Sharma Welcome A Baby Boy; Here’s How To Take Care Of Yourself After Childbirth &#8211; Onlymyhealth</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">February 21, 2024</span> </div>
+</div>
+</li>
+</ul></div></div><div class="clearfix"></div></div><div id="social-statistics-2" class="container-wrapper widget social-statistics-widget"><div class="widget-title the-global-title"><div class="the-subtitle">Follow Us</div></div> <ul class="solid-social-icons fullwidth-stats-icons transparent-icons Arqam-Lite">
+<li class="social-icons-item">
+<a class="facebook-social-icon" href="https://www.facebook.com/fitnesshealthyoga" rel="nofollow noopener" target="_blank">
+<span class="counter-icon tie-icon-facebook"></span> <span class="followers">
+<span class="followers-num">896</span>
+<span class="followers-name">Fans</span>
+</span>
+</a>
+</li>
+<li class="social-icons-item">
+<a class="twitter-social-icon" href="https://twitter.com/fitnesshealth55" rel="nofollow noopener" target="_blank">
+<span class="counter-icon tie-icon-twitter"></span> <span class="followers">
+<span class="followers-num">0</span>
+<span class="followers-name">Followers</span>
+</span>
+</a>
+</li>
+</ul>
+<div class="clearfix"></div></div> </div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+<div id="tiepost-1016-section-6283" class="section-wrapper container-full without-background">
+<div class="section-item full-width" style>
+<div class="container">
+<div class="tie-row main-content-row">
+<div class="main-content tie-col-md-12">
+<div id="tie-block_427" class="mag-box big-posts-box" data-current="1">
+<div class="container-wrapper">
+<div class="mag-box-title the-global-title">
+<h3>
+Yoga </h3>
+<div class="tie-alignright">
+<div class="mag-box-options">
+<ul class="slider-arrow-nav">
+<li>
+<a class="block-pagination prev-posts pagination-disabled" href="#">
+<span class="tie-icon-angle-left" aria-hidden="true"></span>
+<span class="screen-reader-text">Previous page</span>
+</a>
+</li>
+<li>
+<a class="block-pagination next-posts" href="#">
+<span class="tie-icon-angle-right" aria-hidden="true"></span>
+<span class="screen-reader-text">Next page</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="mag-box-container clearfix">
+<ul class="posts-items posts-list-container">
+<li class="post-item  post-44116 post type-post status-publish format-standard has-post-thumbnail category-yoga tag-ananda-balasana-benefits tag-happy-baby-yoga-pose-benefits">
+<a aria-label="Unlock the Happy Baby Yoga Pose Benefits for Your Health | Ananda Balasana Benefits" href="https://fitnesshealthyoga.com/unlock-the-happy-baby-yoga-pose-benefits-for-your-health-ananda-balasana-benefits/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-51">Yoga</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/09/happy-baby-yoga-pose-benefits-390x220.jpg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="happy baby yoga pose benefits" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/09/happy-baby-yoga-pose-benefits-390x220.jpg 390w, https://fitnesshealthyoga.com/wp-content/uploads/2023/09/happy-baby-yoga-pose-benefits-150x86.jpg 150w" sizes="(max-width: 390px) 100vw, 390px" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">September 25, 2023</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 48 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/unlock-the-happy-baby-yoga-pose-benefits-for-your-health-ananda-balasana-benefits/">Unlock the Happy Baby Yoga Pose Benefits for Your Health | Ananda Balasana Benefits</a></h2>
+<p class="post-excerpt">Have you heard of the Happy Baby Yoga Pose, also known as Ananda Balasana? This pose is a great addition&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/unlock-the-happy-baby-yoga-pose-benefits-for-your-health-ananda-balasana-benefits/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-44102 post type-post status-publish format-standard has-post-thumbnail category-yoga tag-yoga-for-beginners">
+<a aria-label="Master Chair Yoga for Beginners: Your Step-by-Step Guide" href="https://fitnesshealthyoga.com/master-chair-yoga-for-beginners-your-step-by-step-guide/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-51">Yoga</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/09/chair-yoga-for-beginners-390x220.jpg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="chair yoga for beginners" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/09/chair-yoga-for-beginners-390x220.jpg 390w, https://fitnesshealthyoga.com/wp-content/uploads/2023/09/chair-yoga-for-beginners-150x86.jpg 150w" sizes="(max-width: 390px) 100vw, 390px" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">September 24, 2023</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 53 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/master-chair-yoga-for-beginners-your-step-by-step-guide/">Master Chair Yoga for Beginners: Your Step-by-Step Guide</a></h2>
+<p class="post-excerpt">Are you looking for a gentle and beginner-friendly way to improve flexibility, balance, and strength? Look no further than chair&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/master-chair-yoga-for-beginners-your-step-by-step-guide/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-43494 post type-post status-publish format-standard has-post-thumbnail category-videos category-yoga tag-yoga-for-weight-loss">
+<a aria-label="Yoga challenge &#8211; Upper Body" href="https://fitnesshealthyoga.com/yoga-challenge-upper-body/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-50">Videos</span></span><img width="120" height="90" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/08/1691986847_hqdefault.jpg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-4"><span class="meta-author"><span class="author-name tie-icon">Maria Rodriguez</span></span></span></span><span class="date meta-item tie-icon">August 14, 2023</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 409 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/yoga-challenge-upper-body/">Yoga challenge &#8211; Upper Body</a></h2>
+<p class="post-excerpt">Source link</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/yoga-challenge-upper-body/">Read More &raquo;</a> </div>
+</li>
+</ul><div class="clearfix"></div>
+</div>
+</div>
+</div>
+<script>var js_tie_block_427 = {"order":"latest","asc_or_desc":"DESC","id":["51"],"number":"3","pagi":"next-prev","excerpt":"true","post_meta":"true","read_more":"true","breaking_effect":"reveal","web_stories_columns":"2","sub_style":"big","is_full":"true","style":"default","title_length":"","excerpt_length":"","media_overlay":"","read_more_text":""};</script>
+</div>
+</div>
+</div> </div>
+</div>
+<div id="tiepost-1016-section-3436" class="section-wrapper container normal-width without-background">
+<div class="section-item sidebar-right has-sidebar" style>
+<div class="container-normal">
+<div class="tie-row main-content-row">
+<div class="main-content tie-col-md-8 tie-col-xs-12" role="main">
+<div id="tie-block_3329" class="mag-box big-posts-box" data-current="1">
+<div class="container-wrapper">
+<div class="mag-box-title the-global-title">
+<h3>
+Recent Researches </h3>
+</div>
+<div class="mag-box-container clearfix">
+<ul class="posts-items posts-list-container">
+<li class="post-item  post-49300 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-power tag-power-lines tag-power-stations tag-solar-panels">
+<a aria-label="The best portable power station for 2024 to help you prep for storms, blackouts and emergencies" href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-390x220.jpeg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="The best portable power station for 2024 to help you prep for storms, blackouts and emergencies" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-390x220.jpeg 390w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-300x169.jpeg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-1024x576.jpeg 1024w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-768x432.jpeg 768w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you-600x338.jpeg 600w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-best-portable-power-station-for-2024-to-help-you.jpeg 1200w" sizes="(max-width: 390px) 100vw, 390px" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">4 hours ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 4 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/">The best portable power station for 2024 to help you prep for storms, blackouts and emergencies</a></h2>
+<p class="post-excerpt">Winter storms are in the rear-view, at least for now, but heat waves and summer storms are here to huff,&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/the-best-portable-power-station-for-2024-to-help-you-prep-for-storms-blackouts-and-emergencies/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49286 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-seizing-the-day tag-walmart">
+<a aria-label="Bissell, HP, Beautiful and more" href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Bissell-HP-Beautiful-and-more-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="Bissell, HP, Beautiful and more" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">16 hours ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 6 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/">Bissell, HP, Beautiful and more</a></h2>
+<p class="post-excerpt">Well, it&#8217;s been nearly two whole days since the solstice, so &#8230; how&#8217;s your summer going?! We just want to&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/bissell-hp-beautiful-and-more/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49258 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-amazon tag-facial-hair tag-nose-hair tag-nose-hairs">
+<a aria-label="The TouchBeauty All In One Hair Trimmer is on sale at Amazon" href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-TouchBeauty-All-In-One-Hair-Trimmer-is-on-sale-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="The TouchBeauty All In One Hair Trimmer is on sale at Amazon" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">1 day ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 0 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/">The TouchBeauty All In One Hair Trimmer is on sale at Amazon</a></h2>
+<p class="post-excerpt">Sure there are products to turn to when you wear short-shorts. But what about when it comes to facial hair?&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/the-touchbeauty-all-in-one-hair-trimmer-is-on-sale-at-amazon/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49250 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-amazon tag-flattering-dresses tag-hanes">
+<a aria-label="These Hanes terry shorts are down to $13" href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/These-Hanes-terry-shorts-are-down-to-13-390x220.png" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="shorts" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">2 days ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 4 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/">These Hanes terry shorts are down to $13</a></h2>
+<p class="post-excerpt">The days are getting longer and sunnier! Right about now, we&#8217;re thinking about adding flowy and flattering dresses to our&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/these-hanes-terry-shorts-are-down-to-13/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49244 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-health tag-mental-health tag-priscilla-blossom tag-social-media tag-warning-label">
+<a aria-label="Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week" href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Should-social-media-come-with-warning-labels-Plus-a-WHO-390x220.jpeg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week" decoding="async" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">2 days ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 7 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/">Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week</a></h2>
+<p class="post-excerpt">Hello, health and wellness readers. My name is Kaitlin, your guide to the news you may have missed and how&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/">Read More &raquo;</a> </div>
+</li>
+<li class="post-item  post-49241 post type-post status-publish format-standard has-post-thumbnail category-health-news tag-lighted-patio-umbrella tag-patio-umbrella">
+<a aria-label="Starry, starry summer nights are yours with this dazzling umbrella — down 22%" href="https://fitnesshealthyoga.com/starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-down-22/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-48">Health News</span></span><img width="390" height="220" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-390x220.jpeg" class="attachment-jannah-image-large size-jannah-image-large wp-post-image" alt="Starry, starry summer nights are yours with this dazzling umbrella — down 22%" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-390x220.jpeg 390w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-300x169.jpeg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-1024x576.jpeg 1024w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-768x432.jpeg 768w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-600x338.jpeg 600w, https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella.jpeg 1200w" sizes="(max-width: 390px) 100vw, 390px" /></a>
+<div class="post-details">
+<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-1"><span class="meta-author"><span class="author-name tie-icon">superadmin</span></span></span></span><span class="date meta-item tie-icon">3 days ago</span><div class="tie-alignright"><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 3 </span></div></div>
+<h2 class="post-title"><a href="https://fitnesshealthyoga.com/starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-down-22/">Starry, starry summer nights are yours with this dazzling umbrella — down 22%</a></h2>
+<p class="post-excerpt">With summer in full swing, it&#8217;s important to make sure that our outdoor spaces are properly set up for alfresco&hellip;</p>
+<a class="more-link button" href="https://fitnesshealthyoga.com/starry-starry-summer-nights-are-yours-with-this-dazzling-umbrella-down-22/">Read More &raquo;</a> </div>
+</li>
+</ul><div class="clearfix"></div>
+</div>
+<a class="block-pagination next-posts show-more-button load-more-button" data-text="Load More">Load More</a>
+</div>
+</div>
+<script>var js_tie_block_3329 = {"order":"latest","asc_or_desc":"DESC","id":["38","42","52","40","41","43","48","49","44","45","50","46","47","51"],"number":"6","pagi":"load-more","excerpt":"true","post_meta":"true","read_more":"true","breaking_effect":"reveal","web_stories_columns":"2","sub_style":"big","style":"default","title_length":"","excerpt_length":"","media_overlay":"","read_more_text":""};</script>
+</div>
+<aside class="sidebar tie-col-md-4 tie-col-xs-12 normal-side is-sticky" aria-label="Primary Sidebar">
+<div class="theiaStickySidebar">
+<div id="stream-item-widget-2" class="widget stream-item-widget widget-content-only"><div class="stream-item-widget-content"></div></div><div id="posts-list-widget-4" class="container-wrapper widget posts-list"><div class="widget-title the-global-title"><div class="the-subtitle">Most Viewed Researches</div></div><div class="widget-posts-list-wrapper"><div class="widget-posts-list-container posts-list-counter"><ul class="posts-list-items widget-posts-wrapper">
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="The 7 best hearing aids for tinnitus, according to audiologists" href="https://fitnesshealthyoga.com/the-7-best-hearing-aids-for-tinnitus-according-to-audiologists/" class="post-thumb"><img width="220" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/The-7-best-hearing-aids-for-tinnitus-according-to-audiologists-220x150.jpeg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="The 7 best hearing aids for tinnitus, according to audiologists" decoding="async" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/the-7-best-hearing-aids-for-tinnitus-according-to-audiologists/">The 7 best hearing aids for tinnitus, according to audiologists</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">7 days ago</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="Newborn gets dengue from mother in rare case; how it happens; tips for recovery | Health" href="https://fitnesshealthyoga.com/newborn-gets-dengue-from-mother-in-rare-case-how-it-happens-tips-for-recovery-health/" class="post-thumb"><img width="220" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/01/virus-outbreak-ukraine-stranded-babies_e29136fa-b1da-11ea-ad6c-23734eaf1981_1695213740463-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt decoding="async" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/newborn-gets-dengue-from-mother-in-rare-case-how-it-happens-tips-for-recovery-health/">Newborn gets dengue from mother in rare case; how it happens; tips for recovery | Health</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">January 9, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week" href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/" class="post-thumb"><img width="220" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/06/Should-social-media-come-with-warning-labels-Plus-a-WHO-220x150.jpeg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week" decoding="async" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/should-social-media-come-with-warning-labels-plus-a-who-warning-on-fake-ozempic-and-other-health-stories-you-may-have-missed-this-week/">Should social media come with warning labels? Plus a WHO warning on fake Ozempic and other health stories you may have missed this week</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">2 days ago</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="Save up to 80% on summer essentials, vacuums, tech and more" href="https://fitnesshealthyoga.com/save-up-to-80-on-summer-essentials-vacuums-tech-and-more/" class="post-thumb"><img width="220" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2024/05/Save-up-to-80-on-summer-essentials-vacuums-tech-and-220x150.png" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="Save up to 80% on summer essentials, vacuums, tech and more" decoding="async" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/save-up-to-80-on-summer-essentials-vacuums-tech-and-more/">Save up to 80% on summer essentials, vacuums, tech and more</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">May 20, 2024</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="2023 holiday bonus guide for your caregivers: How much and who" href="https://fitnesshealthyoga.com/2023-holiday-bonus-guide-for-your-caregivers-how-much-and-who/" class="post-thumb"><img width="220" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/12/GettyImages-1342036877.jpg.optimal-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt decoding="async" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/2023-holiday-bonus-guide-for-your-caregivers-how-much-and-who/">2023 holiday bonus guide for your caregivers: How much and who</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">December 19, 2023</span> </div>
+</div>
+</li>
+</ul></div></div><div class="clearfix"></div></div><div id="posts-list-widget-5" class="container-wrapper widget posts-list"><div class="widget-title the-global-title"><div class="the-subtitle">You must read it</div></div><div class="widget-posts-list-wrapper"><div class="widget-posts-list-container posts-list-circle"><ul class="posts-list-items widget-posts-wrapper">
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="What Are the Benefits of Functional Mushrooms? (Plus, 8 Supplement Brands To Try)" href="https://fitnesshealthyoga.com/what-are-the-benefits-of-functional-mushrooms-plus-8-supplement-brands-to-try/" class="post-thumb"><img width="150" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/What-Are-the-Benefits-of-Functional-Mushrooms-Plus-8-Supplement-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="VegNews.mushroomsupplements.pexels" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/What-Are-the-Benefits-of-Functional-Mushrooms-Plus-8-Supplement-150x150.jpg 150w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/What-Are-the-Benefits-of-Functional-Mushrooms-Plus-8-Supplement-300x300.jpg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/What-Are-the-Benefits-of-Functional-Mushrooms-Plus-8-Supplement-100x100.jpg 100w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/What-Are-the-Benefits-of-Functional-Mushrooms-Plus-8-Supplement-96x96.jpg 96w" sizes="(max-width: 150px) 100vw, 150px" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/what-are-the-benefits-of-functional-mushrooms-plus-8-supplement-brands-to-try/">What Are the Benefits of Functional Mushrooms? (Plus, 8 Supplement Brands To Try)</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">June 13, 2023</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="Woman Loses 193 Lbs With a Simple Exercise She Used to Do as a Child, Encourages Fitness Community to Add It to Their Routines" href="https://fitnesshealthyoga.com/woman-loses-193-lbs-with-a-simple-exercise-she-used-to-do-as-a-child-encourages-fitness-community-to-add-it-to-their-routines/" class="post-thumb"><img width="150" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Woman Loses 193 Lbs With a Simple Exercise She Used to Do as a Child, Encourages Fitness Community to Add It to Their Routines" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-150x150.jpg 150w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-300x300.jpg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-1024x1024.jpg 1024w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-768x768.jpg 768w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-600x600.jpg 600w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-100x100.jpg 100w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used-96x96.jpg 96w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/Woman-Loses-193-Lbs-With-a-Simple-Exercise-She-Used.jpg 1080w" sizes="(max-width: 150px) 100vw, 150px" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/woman-loses-193-lbs-with-a-simple-exercise-she-used-to-do-as-a-child-encourages-fitness-community-to-add-it-to-their-routines/">Woman Loses 193 Lbs With a Simple Exercise She Used to Do as a Child, Encourages Fitness Community to Add It to Their Routines</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">June 5, 2023</span> </div>
+</div>
+</li>
+<li class="widget-single-post-item widget-post-list">
+<div class="post-widget-thumbnail">
+<a aria-label="When is the right time to seek wound care medical attention?" href="https://fitnesshealthyoga.com/when-is-the-right-time-to-seek-wound-care-medical-attention/" class="post-thumb"><img width="150" height="150" src="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="When is the right time to seek wound care medical attention?" decoding="async" srcset="https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-150x150.jpg 150w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-300x300.jpg 300w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-100x100.jpg 100w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-640x641.jpg 640w, https://fitnesshealthyoga.com/wp-content/uploads/2023/06/When-is-the-right-time-to-seek-wound-care-medical-96x96.jpg 96w" sizes="(max-width: 150px) 100vw, 150px" /></a> </div>
+<div class="post-widget-body ">
+<a class="post-title the-subtitle" href="https://fitnesshealthyoga.com/when-is-the-right-time-to-seek-wound-care-medical-attention/">When is the right time to seek wound care medical attention?</a>
+<div class="post-meta">
+<span class="date meta-item tie-icon">June 7, 2023</span> </div>
+</div>
+</li>
+</ul></div></div><div class="clearfix"></div></div> </div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer" class="site-footer dark-skin dark-widgetized-area">
+<div id="footer-widgets-container">
+<div class="container">
+<div class="footer-widget-area ">
+<div class="tie-row">
+<div class="tie-col-sm-4 normal-side">
+<div id="author-bio-widget-1" class="container-wrapper widget aboutme-widget">
+<div class="about-author about-content-wrapper is-centered"><img alt src="https://fitnesshealthyoga.com/wp-content/uploads/2023/08/fitness-health-yoga-small.png" style="width: 200px; " class="about-author-img" width="280" height="47">
+<div class="aboutme-widget-content">
+</div>
+<div class="clearfix"></div>
+<ul class="social-icons"><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.facebook.com/fitnesshealthyoga"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/fitnesshealth55"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link youtube-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-youtube"></span><span class="screen-reader-text">YouTube</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul>
+</div>
+<div class="clearfix"></div></div> </div>
+<div class="tie-col-sm-4 normal-side">
+<div id="nav_menu-1" class="container-wrapper widget widget_nav_menu"><div class="widget-title the-global-title"><div class="the-subtitle">Links</div></div><div class="menu-links-container"><ul id="menu-links" class="menu"><li id="menu-item-6015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1016 current_page_item menu-item-6015 tie-current-menu"><a href="https://fitnesshealthyoga.com/" aria-current="page">Home</a></li>
+<li id="menu-item-6025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6025"><a href="https://fitnesshealthyoga.com/about-us/">About us</a></li>
+<li id="menu-item-6016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-6016"><a rel="privacy-policy" href="https://fitnesshealthyoga.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-6019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6019"><a href="https://fitnesshealthyoga.com/terms-and-conditions/">Terms and Conditions</a></li>
+<li id="menu-item-6018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6018"><a href="https://fitnesshealthyoga.com/dmca-policy/">DMCA Policy</a></li>
+<li id="menu-item-6017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6017"><a href="https://fitnesshealthyoga.com/disclaimer/">Disclaimer</a></li>
+</ul></div><div class="clearfix"></div></div> </div>
+<div class="tie-col-sm-4 normal-side">
+<div id="tie-newsletter-1" class="container-wrapper widget subscribe-widget">
+<div class="widget-inner-wrap">
+<div id="mc_embed_signup-tie-newsletter-1">
+<form action="#" method="post" id="mc-embedded-subscribe-form-tie-newsletter-1" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate>
+<div class="mc-field-group">
+<label class="screen-reader-text" for="mce-EMAIL-tie-newsletter-1">Enter your Email address</label>
+<input type="email" value id="mce-EMAIL-tie-newsletter-1" placeholder="Enter your Email address" name="EMAIL" class="subscribe-input required email">
+</div>
+<input type="submit" value="Subscribe" name="subscribe" class="button subscribe-submit">
+</form>
+</div>
+</div>
+<div class="clearfix"></div></div> </div>
+<div class=" normal-side">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="site-info" class="site-info site-info-layout-2">
+<div class="container">
+<div class="tie-row">
+<div class="tie-col-md-12">
+<div class="copyright-text copyright-text-first">&copy; Copyright 2024, All Rights Reserved &nbsp;</div><ul class="social-icons"><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.facebook.com/fitnesshealthyoga"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/fitnesshealth55"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link youtube-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-youtube"></span><span class="screen-reader-text">YouTube</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<a id="go-to-top" class="go-to-top-button" href="#go-to-tie-body">
+<span class="tie-icon-angle-up"></span>
+<span class="screen-reader-text">Back to top button</span>
+</a>
+</div>
+<aside class=" side-aside normal-side dark-skin dark-widgetized-area is-fullwidth appear-from-left" aria-label="Secondary Sidebar" style="visibility: hidden;">
+<div data-height="100%" class="side-aside-wrapper has-custom-scroll">
+<a href="#" class="close-side-aside remove big-btn light-btn">
+<span class="screen-reader-text">Close</span>
+</a>
+<div id="mobile-container">
+<div id="mobile-search">
+<form role="search" method="get" class="search-form" action="https://fitnesshealthyoga.com/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form> </div>
+<div id="mobile-menu" class="hide-menu-icons">
+</div>
+<div id="mobile-social-icons" class="social-icons-widget solid-social-icons">
+<ul><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.facebook.com/fitnesshealthyoga"><span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/fitnesshealth55"><span class="tie-social-icon tie-icon-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link youtube-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-youtube"></span><span class="screen-reader-text">YouTube</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="#"><span class="tie-social-icon tie-icon-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<script type="text/javascript">
+                                            
+                                            </script>
+<script type="text/javascript">( $ => {
+	/**
+	 * Displays toast message from storage, it is used when the user is redirected after login
+	 */
+	if ( window.sessionStorage ) {
+		$( window ).on( 'tcb_after_dom_ready', () => {
+			const message = sessionStorage.getItem( 'tcb_toast_message' );
+
+			if ( message ) {
+				tcbToast( sessionStorage.getItem( 'tcb_toast_message' ), false );
+				sessionStorage.removeItem( 'tcb_toast_message' );
+			}
+		} );
+	}
+
+	/**
+	 * Displays toast message
+	 *
+	 * @param {string}   message  - message to display
+	 * @param {Boolean}  error    - whether the message is an error or not
+	 * @param {Function} callback - callback function to be called after the message is closed
+	 */
+	function tcbToast( message, error, callback ) {
+		/* Also allow "message" objects */
+		if ( typeof message !== 'string' ) {
+			message = message.message || message.error || message.success;
+		}
+		if ( ! error ) {
+			error = false;
+		}
+		TCB_Front.notificationElement.toggle( message, error ? 'error' : 'success', callback );
+	}
+} )( typeof ThriveGlobal === 'undefined' ? jQuery : ThriveGlobal.$j );
+</script><div id="autocomplete-suggestions" class="autocomplete-suggestions"></div><div id="is-scroller-outer"><div id="is-scroller"></div></div><div id="fb-root"></div> <div id="tie-popup-search-mobile" class="tie-popup tie-popup-search-wrap" style="display: none;">
+<a href="#" class="tie-btn-close remove big-btn light-btn">
+<span class="screen-reader-text">Close</span>
+</a>
+<div class="popup-search-wrap-inner">
+<div class="live-search-parent pop-up-live-search" data-skin="live-search-popup" aria-label="Search">
+<form method="get" class="tie-popup-search-form" action="https://fitnesshealthyoga.com/">
+<input class="tie-popup-search-input " inputmode="search" type="text" name="s" title="Search for" autocomplete="off" placeholder="Search for" />
+<button class="tie-popup-search-submit" type="submit">
+<span class="tie-icon-search tie-search-icon" aria-hidden="true"></span>
+<span class="screen-reader-text">Search for</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+<style type="text/css" id="tve_notification_styles"></style>
+<div class="tvd-toast tve-fe-message" style="display: none">
+<div class="tve-toast-message tve-success-message">
+<div class="tve-toast-icon-container">
+<span class="tve_tick thrv-svg-icon"></span>
+</div>
+<div class="tve-toast-message-container"></div>
+</div>
+</div> <script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.3" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/fitnesshealthyoga.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.3" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.7.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/fitnesshealthyoga.com\/sunil05\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.7.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" id="tve-dash-frontend-js-extra">
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/fitnesshealthyoga.com\/sunil05\/admin-ajax.php","force_ajax_send":"1","is_crawler":"","recaptcha":[],"post_id":"1016"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=3.38" id="tve-dash-frontend-js"></script>
+<script type="text/javascript" id="tie-scripts-js-extra">
+/* <![CDATA[ */
+var tie = {"is_rtl":"","ajaxurl":"https:\/\/fitnesshealthyoga.com\/sunil05\/admin-ajax.php","is_taqyeem_active":"1","is_sticky_video":"","mobile_menu_top":"","mobile_menu_active":"area_1","mobile_menu_parent":"","lightbox_all":"true","lightbox_gallery":"true","lightbox_skin":"dark","lightbox_thumb":"horizontal","lightbox_arrows":"true","is_singular":"1","autoload_posts":"","reading_indicator":"true","lazyload":"","select_share":"true","select_share_twitter":"true","select_share_facebook":"true","select_share_linkedin":"true","select_share_email":"","facebook_app_id":"5303202981","twitter_username":"@fitnesshealth55","responsive_tables":"true","ad_blocker_detector":"","sticky_behavior":"default","sticky_desktop":"true","sticky_mobile":"true","sticky_mobile_behavior":"default","ajax_loader":"<div class=\"loader-overlay\">\n\t\t\t\t<div class=\"spinner\">\n\t\t\t\t\t<div class=\"bounce1\"><\/div>\n\t\t\t\t\t<div class=\"bounce2\"><\/div>\n\t\t\t\t\t<div class=\"bounce3\"> <\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>","type_to_search":"","lang_no_results":"Nothing Found","sticky_share_mobile":"true","sticky_share_post":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/js/scripts.min.js?ver=6.1.1" id="tie-scripts-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/ilightbox/lightbox.js?ver=6.1.1" id="tie-js-ilightbox-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/js/sliders.min.js?ver=6.1.1" id="tie-js-sliders-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/js/shortcodes.js?ver=6.1.1" id="tie-js-shortcodes-js"></script>
+<script type="text/javascript" src="https://fitnesshealthyoga.com/wp-content/themes/jannah/assets/js/br-news.js?ver=6.1.1" id="tie-js-breaking-js"></script>
+<script type="text/javascript">var tcb_current_post_lists=JSON.parse('[]'); var tcb_post_lists=tcb_post_lists?[...tcb_post_lists,...tcb_current_post_lists]:tcb_current_post_lists;</script><script>
+				WebFontConfig ={
+					google:{
+						families: [ 'Roboto:600,regular:latin&display=swap' ]
+					}
+				};
+
+				(function(){
+					var wf   = document.createElement('script');
+					wf.src   = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+					wf.type  = 'text/javascript';
+					wf.defer = 'true';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(wf, s);
+				})();
+			</script> <script type="text/javascript">
+			!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+		</script>
+<script type="text/javascript">
+			var c = document.body.className;
+			c = c.replace(/tie-no-js/, 'tie-js');
+			document.body.className = c;
+		</script>
+</body>
+</html>
